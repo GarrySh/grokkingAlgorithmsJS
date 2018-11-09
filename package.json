@@ -2,7 +2,6 @@
   "name": "grokking-algorithms-js",
   "version": "0.0.1",
   "description": "Grokking Algorithms - exercise solution",
-  "main": "dist/index.js",
   "engines": {
     "node": ">=10.13",
     "yarn": ">=1"
