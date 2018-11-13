@@ -3,13 +3,6 @@ const binarySearch = (list, item) => {
   let high = list.length - 1;
   for (let i = 0; i < list.length; i += 1) {
     const middle = low + Math.floor((high - low) / 2);
-    // console.log({
-    //   i,
-    //   list,
-    //   low,
-    //   high,
-    //   middle,
-    // });
     const current = list[middle];
     if (current === item) {
       return middle;
