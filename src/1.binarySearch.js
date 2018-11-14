@@ -1,7 +1,7 @@
 const binarySearch = (list, item) => {
   let low = 0;
   let high = list.length - 1;
-  for (let i = 0; i < list.length; i += 1) {
+  for (let i = 0; low <= high; i += 1) {
     const middle = low + Math.floor((high - low) / 2);
     const current = list[middle];
     if (current === item) {
