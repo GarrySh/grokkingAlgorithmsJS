@@ -12,5 +12,11 @@ const getMinValueIndex = arr => {
 
 export default arr => {
   const sortedArr = [];
+  const max = arr.length;
+  for (let i = 0; i < max; i += 1) {
+    const minIndex = getMinValueIndex(arr);
+    const [minValue] = arr.splice(minIndex, 1);
+    sortedArr.push(minValue);
+  }
   return sortedArr;
 };
