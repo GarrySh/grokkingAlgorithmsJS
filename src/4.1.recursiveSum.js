@@ -1,4 +1,4 @@
-const recursiveSum = arr => {
+const sum = arr => {
   const [head, ...tail] = arr;
   if (arr.length === 0) {
     return 0;
@@ -6,7 +6,7 @@ const recursiveSum = arr => {
   if (arr.length === 1) {
     return head;
   }
-  return head + recursiveSum(tail);
+  return head + sum(tail);
 };
 
-export default recursiveSum;
+export default sum;
