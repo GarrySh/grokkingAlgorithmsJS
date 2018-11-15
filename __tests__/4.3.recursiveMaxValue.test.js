@@ -17,5 +17,5 @@ test('data set 3', () => {
 
 test('data set 4', () => {
   const arr = [];
-  expect(max(arr)).toBe(0);
+  expect(max(arr)).toBeNull();
 });
