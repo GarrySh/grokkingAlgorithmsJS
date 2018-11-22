@@ -4,7 +4,7 @@
   "description": "Grokking Algorithms - exercise solution",
   "engines": {
     "node": ">=10.13",
-    "yarn": ">=1"
+    "yarn": ">=1.23.3"
   },
   "scripts": {
     "test": "jest",
