@@ -11,6 +11,11 @@ test('data set 2', () => {
 });
 
 test('data set 3', () => {
+  const arr = [133, 12];
+  expect(max(arr)).toBe(133);
+});
+
+test('data set 4', () => {
   const arr = [133];
   expect(max(arr)).toBe(133);
 });
